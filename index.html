@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar and Footer</title>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/footer.css">
+  
+</head>
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="./index.html" class="logo">
+                <!-- <img src="./images/logo.png" alt="logo" class="logo-img"> -->
+                HomeStyler
+            </a>
+            <div class="nav-links">
+                <a href="./index.html" class="nav-link">Home</a>
+                <a href="#" class="nav-link">About Us</a>
+                <a href="#" class="nav-link">Gallery</a>
+                <div class="drop">
+                    <a href="#" class="nav-link">Product <i class="fas fa-chevron-circle-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="./products/funiture.html">Funiture</a></li>
+                        <li><a href="./products/kitchen.html">Kitchen</a></li>
+                        <li><a href="./products/lighting.html">Lighting</a></li>
+                        <li><a href="./products/decor.html">Decor</a></li>
+                        <li><a href="./products/bath.html">Bathroom</a></li>
+                    </ul>
+                </div>
+                <a href="/watchlist" class="nav-link">Designs</a>
+                
+            </div>
+            <div class="cta">
+                <a href="/signupform" class="cta-button">Contact</a>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <span id="menu-icon" class="icon">☰</span>
+              
+            </button>
+            <div id="mobile-menu" class="mobile-menu">
+                <span id="close-icon" class="cancel-icon" onclick="closeMenu()">✖</span>
+                <a href="/" class="mobile-link" onclick="closeMenu()">Home</a>
+                <a href="/about" class="mobile-link" onclick="closeMenu()">About Us</a>
+                <a href="/course" class="mobile-link" onclick="closeMenu()">Gallery</a>
+<<<<<<< HEAD
+                <div class="drop">
+                    <a href="#" class="mobile-link" onclick="closeMenu()">Product</a>
+                    <ul class="dropdown">
+                        <li><a href="./products/funiture.html">Funiture</a></li>
+                        <li><a href="./products/kitchen.html">Kitchen</a></li>
+                        <li><a href="./products/lighting.html">Lighting</a></li>
+                        <li><a href="./products/decor.html">Decor</a></li>
+                        <li><a href="./products/bath.html">Bathroom</a></li>
+                    </ul>
+                </div>
+=======
+                <a href="/blog" class="mobile-link" onclick="closeMenu()">Product</a>
+>>>>>>> b7275486e3f173251e7088da84ca19e879208c64
+                <a href="/watchlist" class="mobile-link" onclick="closeMenu()">Designs</a>
+              
+                <!-- <a href="/signupform" class="mobile-cta-button" onclick="closeMenu()">Contact</a> -->
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-container">
+        <!-- Main content of the page -->
+    </main>
+
+    <!-- Footer  -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-logosection">
+                    <h2>Home Styler</h2>
+                    <p class="footer-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+               </div>
+                <div class="col-md-4">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#" class="footer-a">About</a></li>
+                        <li><href="#" class="footer-a">Product</a></li>
+                        <li><href="#" class="footer-a">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><href="#" class="footer-a">Facebook</a></li>
+                        <li><href="#" class="footer-a">Twitter</a></li>
+                        <li><href="#" class="footer-a">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><href="#" class="footer-a">consulto98@gmail.com</a></li>
+                        <li><href="#" class="footer-a">76/A, Green road, NY</a></li>
+                        <li><href="#" class="footer-a">(80) 783 367-3904</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Company Name. All rights reserved.
+            </div>
+        </div>
+        </footer>
+        
+
+
+<<<<<<< HEAD
+    <script src="./javascript/index.js"></script>
+=======
+    <script src="/javascript/index.js"></script>
+>>>>>>> b7275486e3f173251e7088da84ca19e879208c64
+    
+</body>
+</html>
